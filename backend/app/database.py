@@ -3,8 +3,8 @@ from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-# DATABASE_URL = "postgresql+psycopg2://postgres:12345@192.168.8.250:5432/chetak_dev"
-DATABASE_URL = "postgresql+psycopg2://postgres:root@localhost/student_db"
+# DATABASE_URL = "postgresql+psycopg2://postgres:root@localhost/student_db"
+DATABASE_URL = "postgresql://student_todo_db_user:QTAfHBpTwngH8Sg3fYtJSslumpwBfASs@dpg-d01jpbidbo4c738r4osg-a.oregon-postgres.render.com/student_todo_db"
 
 
 # ✅ Define a single Declarative Base
