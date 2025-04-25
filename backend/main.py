@@ -19,3 +19,7 @@ app.include_router(student_router, prefix="/api")
 app.mount("/images", StaticFiles(directory="backend/images"), name="images")
 
 
+app.include_router(student_router, prefix="/api")
+app.mount("/images", StaticFiles(directory="backend/images"), name="images")
+
+
