@@ -19,7 +19,7 @@ app.include_router(student_router, prefix="/api")
 # app.mount("/images", StaticFiles(directory="C:/desktop folder/py_react_tsx_todo/backend/images"), name="images")
 # app.mount("/images", StaticFiles(directory="backend/images"), name="images")
 
-image_dir = os.path.join(os.getcwd(), "backend/images")
+image_dir = os.path.join(os.getcwd(), "/images")
 
 app.mount("/images", StaticFiles(directory=image_dir), name="images")
 
